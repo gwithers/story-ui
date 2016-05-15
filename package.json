@@ -1,0 +1,37 @@
+{
+  "name": "story-ui",
+  "version": "0.0.1",
+  "description": "A simple react component ui",
+  "author": {
+    "name": "George A. Withers, Jr.",
+    "email": "george.withers@gmail.com"
+  },
+  "scripts": {
+    "lint": "jshint **.js",
+    "test": "mocha test/*/**.js"
+  },
+  "dependencies": {
+    "fortune-teller": "~0",
+    "express": "~4.8",
+    "ejs": "latest"
+  },
+  "devDependencies": {
+    "jshint": "latest",
+    "mocha": "latest",
+    "chai": "latest",
+    "should": "latest",
+    "zombie": "latest",
+    "babel-cli": "^6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gwithers/story-ui"
+  },
+  "engines": {
+  },
+  "keywords": [
+    "react",
+    "simple"
+  ],
+  "license": "ISC"
+}
